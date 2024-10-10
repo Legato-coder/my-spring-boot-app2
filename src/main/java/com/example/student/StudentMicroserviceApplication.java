@@ -15,5 +15,7 @@ public class StudentMicroserviceApplication {
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();
+        
+        //test
     }
 }
